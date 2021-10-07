@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(240,240,240);
+  color: rgb(50,50,50);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+h1 {
+  color: darkred;
+  font-weight: bold;
+  font-weight: 900;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(130,130,130);
+}
+a:hover{
+  color: rgb(50,50,50);
+}
+
+.circular-landscape {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.circular-landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -150px;
+}
+
+#titre_haut{
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(0,0,0,.2);
+  width: 550px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#titre_haut p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.element {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(0,0,0,.2);
+  width: 550px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#list li{
+  display: inline;
+  padding: 10px;
+}
+
+#list i{
+  font-size: 50px;
+  color: rgb(130,130,130);
+}
+
+#list i:hover{
+  color: black;
+}
